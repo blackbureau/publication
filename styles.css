@@ -1,0 +1,69 @@
+section {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+  margin: 0;
+}
+/* white edges disappeared */
+
+
+.page1 {
+  background-image: url("img/the-pen.svg");
+  background-color: #ff8cff;
+}
+
+.page2 {
+  background-image: url("img/yspol-Synthetic_154455.png");
+  background-color: black;
+}
+
+
+.page3 {
+  background-image: url("img/plant-life.jpg");
+
+}
+
+.page4 {
+  background-image: url("img/the-sword.svg");
+  background-color: #7bed87;
+}
+
+.page5 {
+  background-image: url("img/OBLIQUE_ii_180759small.jpg");
+}
+
+a {
+  position: fixed;
+  bottom: 20px;
+  margin: 0 auto;
+}
+
+/* footer {
+  position: fixed;
+  width: 40px;
+  left: 50%;
+  bottom: 30px;
+  margin-left: -20px;
+  background-color: red;
+} */
+
+.circle {
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  width: 40px;
+  left: 50%;
+  bottom: 30px;
+  margin-left: -20px;
+  background-color: red;
+}
+
+.text {
+  background-color: gray;
+  /* position: fixed; */
+}
